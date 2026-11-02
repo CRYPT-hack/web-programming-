@@ -1,0 +1,31 @@
+{
+  "name": "web-programming",
+  "version": "1.0.0",
+  "description": "Node.js + Express + MongoDB REST API with CRUD (models, controllers, routes)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CRYPT-hack/web-programming-.git"
+  },
+  "keywords": [],
+  "author": "Shobhit (https://github.com/CRYPT-hack)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CRYPT-hack/web-programming-/issues"
+  },
+  "homepage": "https://github.com/CRYPT-hack/web-programming-#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "mongoose": "^9.11.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "type": "module"
+}
